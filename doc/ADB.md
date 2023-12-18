@@ -7,3 +7,7 @@ Ce document vise à présenter l’analyse des besoins du projet, celui-ci sera 
 ## Objectifs du document
 
 Les objectifs de ce document sont d’identifier le problème, documenter les exigences et d’impliquer les utilisateurs et les experts dans le domaine de l’application
+
+## Structure et les documents référencés.
+
+Un document Annexe est rattaché à ce document. Il présente différents documents tel que des images ou des PDF pour illustrer notre projet.
