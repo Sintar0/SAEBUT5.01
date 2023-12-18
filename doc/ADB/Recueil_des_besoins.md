@@ -11,3 +11,12 @@ L’ensemble de l’équipe pédagogique du département de l’IUT informatique
 3. Qu'est-ce qui entre dans cette portée ? Qu'est-ce qui est en dehors ? (Les limites du système.)
 
 Les modules ne pourront pas être modifiés par les utilisateurs et ils ne pourront pas importer de modules externes.
+
+# Chapitre 2 – Terminologie employée / Glossaire
+
+- Front-end : désigne toute l’interface visible par l’utilisateur 
+- Back-end : désigne tout le code et sa structure (partie non visible par l’utilisateur) 
+- Git : logiciel de gestion de version 
+- Repository (Git) : dossier Git où se trouvera toute l’avancée du projet 
+- Gitlab : site sur lequel est notre repository
+- Navigateur web : interface graphique permettant d’accéder à Internet et de naviguer à travers les différents sites web.
