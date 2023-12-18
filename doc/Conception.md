@@ -25,3 +25,28 @@ Les boutons contiennent une image, un titre et leur description. Les boutons ont
 ![](https://media.discordapp.net/attachments/1165993401452331129/1186304074291875850/image.png?ex=6592c2c3&is=65804dc3&hm=a9c1668a1a0abc8b7f19636c3bc8bb8f1264a786d047b437dfb27599b114c503&=&format=webp&quality=lossless&width=1339&height=621)
 
 Toutes les pages de module reprennent la structure de la page d’accueil c’est-à-dire, un nav un main propre à chaque module et le footer.
+
+## Charte graphique
+
+### Couleurs
+
+![](https://media.discordapp.net/attachments/1165993401452331129/1186300501390807121/image.png?ex=6592bf6f&is=65804a6f&hm=28ef56b7cb8b9e4193e6c6eacd397edd9ee0bd1ef6b3f564764712710dfc2e45&=&format=webp&quality=lossless)
+
+Notre charte graphique comporte cinq couleurs. Cette palette reprend quelques couleurs rouges, un noir, un gris et du bleu foncé.
+
+Tous les textes seront de couleur grise : **#DBDBDB**.
+
+Le background de nos pages utilise la couleur grise : **#DBDBDB**.
+
+Le nav et le footer des pages utilise la couleur bleue foncée : **#413C58**.
+Leur bords seront légèrement arrondis.
+
+Le nav reste constamment au haut de la page.
+
+Le fond de la partie titre/description est de la couleur : **#413C58**.
+
+### Police de caractères
+
+Tous nos pages utilisent la police de caractères Roboto 500.
+
+https://fonts.google.com/specimen/Roboto
