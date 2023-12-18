@@ -50,3 +50,9 @@ Le fond de la partie titre/description est de la couleur : **#413C58**.
 Tous nos pages utilisent la police de caractères Roboto 500.
 
 https://fonts.google.com/specimen/Roboto
+
+## Conception architecturale
+
+Nous utilisons un ensemble de fichiers HTML et CSS interagissant entre eux.
+
+![](https://media.discordapp.net/attachments/1165993401452331129/1186327119446425731/image.png?ex=6592d83a&is=6580633a&hm=ae5df3b65d8bbccaac038b27332fe98cbdf45e81fd083b95ad6388de9763a2f9&=&format=webp&quality=lossless&width=968&height=621)
