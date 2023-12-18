@@ -40,3 +40,26 @@ L’application sera gérée en HTML/CSS pour le front-end et par PHP/Python pou
 
 ## 2. Avec quels systèmes ce système s'interfacera-t-il et avec quelles exigences ?
 Il s'interface dans les navigateurs web des utilisateurs/visiteurs sous n'importe quelle distribution.
+
+# Chapitre 5 – Autres exigences
+
+## 1. Processus de développement
+
+i. Qui sont les participants au projet ?
+Nous participons au projet pour le développement informatique. Le client est aussi participant au projet car c’est lui qui nous demande de faire celui-ci.
+
+ii. Quelles valeurs devront être privilégiées ? (exemple : simplicité, disponibilité, rapidité, souplesse etc... )
+L’application devra être accessible, rapide et souple pour s’adapter à tout type d’appareil et tous les utilisateurs.
+
+iii. Quels retours ou quelle visibilité sur le projet les utilisateurs et commanditaires souhaitent-ils ?
+Il s’agira de demander des retours au client à chaque fin de cycle pour vérifier que tout est conforme à ce qu’il a demandé.
+
+iv. Que peut-on acheter ? Que doit-on construire ? Qui sont nos concurrents ?
+Nous faisons l’installation du site web et des modules en local. Nous n’avons donc pas besoin d’acheter quoi que ce soit.
+
+v. Quelles sont les autres exigences du processus ? (exemple : tests, installation, etc...)
+Nous avons des tests à chaque fin de cycle permettant de bien vérifier que tout marche comme il faut. De plus, nous devons faire un rapport d’installation pour le client.
+
+vi. A quelle dépendance le projet est-il soumis ?
+Le projet est soumis à dépendance temporel d’une semaine, en effet le projet commence à 9 heure le lundi 18/12 et finit le vendredi 22/12 à 18 heure. Il y a aussi une dimension géographique à respecter, nous devons effectuer le projet dans une salle dédiée à la SAE.
+Il faut aussi respecter la demande client des différents modules et la création d’un dépôt gitlab ou github des livrables.
