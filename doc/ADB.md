@@ -35,3 +35,10 @@ L’interface essaiera d’intégrer le plus de fonctionnalités pour qu’elle 
 ## Ressources matérielles
 
 - Besoin de machines pour effectuer l’interface web avec le langage php installé et un navigateur Internet afin d’effectuer le rendu des pages.
+
+## Ressources logicielles
+
+- Nous aurons besoin de tout d’abord un repository en ligne comme gitlab.
+- Pour le frontend du site nous utiliserons HTML/CSS.
+- D’un éditeur de code comme Visual Studio Code.
+- Pour réaliser la maquette de l’interface, nous utilisons le logiciel Microsoft WhiteBoard.
