@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #DBDBDB;
+    color: #0f0f0f;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 7%;
+    background-color: #413C58;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75),
+    inset 0px -10px 16px 1px rgba(7, 2, 101, 0.25);
+}
+nav #logo {
+    height: 75%;
+    width: auto;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+
+main {
+    position: absolute;
+    top: 7%;
+    height: max-content;
+    margin: 1%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 50px;
+    margin: 2%;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#content-header {
+    margin-bottom: 70px;
+}
+
+#content-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px 50px;
+}
+
+#module {
+    width: 500px;
+    height: 300px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: #413C58;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75),
+    inset 0px -10px 16px 1px rgba(7, 2, 101, 0.35);
+
+}
+
+#module-header {
+    background-position: 50% 50%;
+    background-size: 100% auto;
+    background-origin: 50% 50%;
+    background-repeat: no-repeat;
+    border-radius: 50px 50px 0px 0px;
+    width: 100%;
+    height: 60%;
+}
+
+#module-body {
+    width: 100%;
+    height: max-content;
+    box-sizing: border-box;
+    padding: 0px 20px 0px 20px;
+}
+
+#module-body h2 {
+    text-shadow: #ffffff 0px 0px 1px;
+    color: #DBDBDB;
+}
+#module-body p {
+    text-shadow: #ffffff 0px 0px 1px;
+    color: #DBDBDB;
+}
+
+a {
+    text-decoration: none;
+    color: #0f0f0f;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    background-color: #413C58;
+    color: #DBDBDB;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75),
+    inset 0px 10px 16px 1px rgba(7, 2, 101, 0.25);
+}
+
+footer p {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 50%;
+    text-align: center;
+}
