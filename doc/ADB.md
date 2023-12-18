@@ -50,3 +50,8 @@ L’interface essaiera d’intégrer le plus de fonctionnalités pour qu’elle 
 - Communication afin de rendre un projet cohérent avec l'énoncé du projet.
 - Savoir coder une interface web avec PHP, HTML, CSS pour accueillir les différents modules présents sur le site.
 - Tests d’acceptations pour l’interface web
+
+# IV./ Priorités
+
+Il n’y a pas particulièrement de priorités convenues avec le client. 
+Cependant, la priorité pour ce “cycle” dans notre développement est d’avoir une interface accessible à tous et responsive pour pouvoir s’adapter à tout type d’appareil.
