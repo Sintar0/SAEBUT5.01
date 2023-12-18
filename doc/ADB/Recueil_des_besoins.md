@@ -63,3 +63,20 @@ Nous avons des tests à chaque fin de cycle permettant de bien vérifier que tou
 vi. A quelle dépendance le projet est-il soumis ?
 Le projet est soumis à dépendance temporel d’une semaine, en effet le projet commence à 9 heure le lundi 18/12 et finit le vendredi 22/12 à 18 heure. Il y a aussi une dimension géographique à respecter, nous devons effectuer le projet dans une salle dédiée à la SAE.
 Il faut aussi respecter la demande client des différents modules et la création d’un dépôt gitlab ou github des livrables.
+
+## 2. Règles métier
+
+## 3. Performances
+Aucune contrainte de performance, que ce soit en termes de complexité ou de ressources. 
+
+## 4. Opérations, sécurité, documentation
+Il n’y a pas de système d’authentification et la plateforme s’installe en local, il n’y a donc pas de risque de brèche sur un compte. De plus, l’application est sur un Git privé donc pas accessible à moins d’avoir les accès.
+
+## 5. Utilisation et utilisabilité
+Aucune utilisation précise n’est définie pour ce projet, seul le squelette du site est disponible.
+
+## 6. Maintenance et portabilité
+À ce jour, aucune maintenance n’est prévue pour le projet. Pareillement aucune contrainte spécifique n’a été donnée à ce jour concernant la portabilité.
+
+## 7. Questions non résolues ou reportées à plus tard
+Rien à signaler pour le premier livrable.
