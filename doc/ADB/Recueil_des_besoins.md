@@ -32,3 +32,11 @@ Un seul acteur est à recenser pour ce projet à savoir l’utilisateur du site,
 - L’accès à un module.
 
 ## 3. Les cas d'utilisation système.
+
+# Chapitre 4 – La technologie employée
+
+## 1. Quelles sont les exigences technologiques pour ce système ?
+L’application sera gérée en HTML/CSS pour le front-end et par PHP/Python pour le back-end.
+
+## 2. Avec quels systèmes ce système s'interfacera-t-il et avec quelles exigences ?
+Il s'interface dans les navigateurs web des utilisateurs/visiteurs sous n'importe quelle distribution.
