@@ -42,3 +42,11 @@ L’interface essaiera d’intégrer le plus de fonctionnalités pour qu’elle 
 - Pour le frontend du site nous utiliserons HTML/CSS.
 - D’un éditeur de code comme Visual Studio Code.
 - Pour réaliser la maquette de l’interface, nous utilisons le logiciel Microsoft WhiteBoard.
+
+## Compétences nécessaires.
+
+- Utilisation de l’outil Gitlab pour mettre en commun les différents fichiers du projet et créer une arborescence commune pour une meilleure clarté en équipe.
+- Travail en équipe pour la répartition des différentes tâches et une bonne 
+- Communication afin de rendre un projet cohérent avec l'énoncé du projet.
+- Savoir coder une interface web avec PHP, HTML, CSS pour accueillir les différents modules présents sur le site.
+- Tests d’acceptations pour l’interface web
