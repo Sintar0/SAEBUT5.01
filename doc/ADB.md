@@ -31,3 +31,7 @@ L’interface essaiera d’intégrer le plus de fonctionnalités pour qu’elle 
 
 - Nous aurons besoin de connaissances en programmation web pour effectuer une interface qui répertorie nos différents modules.
 - Connaissance en accessibilité pour le site web.
+
+## Ressources matérielles
+
+- Besoin de machines pour effectuer l’interface web avec le langage php installé et un navigateur Internet afin d’effectuer le rendu des pages.
