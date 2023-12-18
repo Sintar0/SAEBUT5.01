@@ -80,3 +80,24 @@ Aucune utilisation précise n’est définie pour ce projet, seul le squelette d
 
 ## 7. Questions non résolues ou reportées à plus tard
 Rien à signaler pour le premier livrable.
+
+# Chapitre 6 – Recours humain, questions juridiques, politiques, organisationnelles.
+
+## 1. Quel est le recours humain au fonctionnement du système ?
+
+L’utilisateur doit choisir aller de lui-même sur la page web en tapant l’URL 
+
+## 2. Quelles sont les exigences juridiques et politiques ?
+
+On ne stocke aucunement des données utilisateurs donc nous n’avons aucune règle particulière à respecter. Cependant, nous avons sécurisé notre repository Gitlab.
+Nous devons rester politiquement neutre et respecter la jurisprudence française.
+
+## 3. Quelles sont les conséquences humaines de la réalisation du système ?
+
+Il n’y a pas de conséquences humaines à la réalisation de ce système. 
+En effet, des sites existent déjà pour calculer les modules que nous allons faire.
+
+## 4. Quels sont les besoins en formation ?
+L’équipe doit revoir certaines notions de réseau notamment pour les IPv4 et les IPv6. Elle doit aussi avoir des compétences en développement web et plus particulièrement en HTML/CSS pour l’interface ainsi qu’en PHP pour le back-end.
+
+## 5. Quelles sont les hypothèses et les dépendances affectant l'environnement humain ?
