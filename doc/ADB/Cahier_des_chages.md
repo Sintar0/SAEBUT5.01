@@ -18,12 +18,16 @@ Un document Annexe est rattaché à ce document. Il présente différents docume
 
 Ce projet s'inscrit dans le cadre de la SAE du semestre 5, le client nous a transmis son cahier des charges, la deadline pour ce projet est le vendredi 22 décembre à 18h. Nous disposons d’une période de 5 jours pour livrer le rendu final.
 Objectifs du projet
-Développer un serveur web avec une interface permettant aux visiteurs d’y accéder sans authentification. 
+Développer un serveur web avec une interface permettant aux visiteurs d’y accéder sans authentification.
+
+De plus, le client souhaite qu’on développe un module permettant à un utilisateur de pouvoir exécuter des commandes PING sur une adresse IP ou une URL.
 
 ## Définition des objectifs que doit atteindre la solution.
 
 L'interface web comprend une structure similaire à toutes les pages du serveur Web. Elle s’appuie sur une maquette et une charte graphique. Ces deux documents sont disponibles en Annexe. Chaque module possède sa propre interface afin de s’adapter à ses besoins.
 L’interface essaiera d’intégrer le plus de fonctionnalités pour qu’elle respecte les principes de l’accessibilité.
+
+Le module PING consiste à proposer à un utilisateur de “ping” une adresse IP ou un URL avec des paramètres afin de tester par exemple l'accessibilité de différentes machines sur un réseau local. 
 
 # III./ Pré-requis
 
@@ -31,6 +35,7 @@ L’interface essaiera d’intégrer le plus de fonctionnalités pour qu’elle 
 
 - Nous aurons besoin de connaissances en programmation web pour effectuer une interface qui répertorie nos différents modules.
 - Connaissance en accessibilité pour le site web.
+- Nous aurons besoin de connaissances basiques en réseau pour comprendre le fonctionnement de ping, notamment, connaître les paramètres de la commande pour proposer une implémentation du module conforme aux attentes du client.
 
 ## Ressources matérielles
 
@@ -42,6 +47,7 @@ L’interface essaiera d’intégrer le plus de fonctionnalités pour qu’elle 
 - Pour le frontend du site nous utiliserons HTML/CSS.
 - D’un éditeur de code comme Visual Studio Code.
 - Pour réaliser la maquette de l’interface, nous utilisons le logiciel Microsoft WhiteBoard.
+- La machine sur lequel sera exécuté le module ping devra être doté du système Linux pour assurer le fonctionnement du ping.
 
 ## Compétences nécessaires.
 
