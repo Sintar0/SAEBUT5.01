@@ -33,13 +33,16 @@ Un seul acteur est à recenser pour ce projet à savoir l’utilisateur du site,
 
 ## 3. Les cas d'utilisation système.
 
+- L’utilisation au module ping.
+
 # Chapitre 4 – La technologie employée
 
 ## 1. Quelles sont les exigences technologiques pour ce système ?
 L’application sera gérée en HTML/CSS pour le front-end et par PHP/Python pour le back-end.
 
 ## 2. Avec quels systèmes ce système s'interfacera-t-il et avec quelles exigences ?
-Il s'interface dans les navigateurs web des utilisateurs/visiteurs sous n'importe quelle distribution.
+
+Il s'interface dans les navigateurs web des utilisateurs/visiteurs sous n'importe quelle distribution. Le module ping est quant à lui un sous système du site web.
 
 # Chapitre 5 – Autres exigences
 
@@ -58,7 +61,7 @@ iv. Que peut-on acheter ? Que doit-on construire ? Qui sont nos concurrents ?
 Nous faisons l’installation du site web et des modules en local. Nous n’avons donc pas besoin d’acheter quoi que ce soit.
 
 v. Quelles sont les autres exigences du processus ? (exemple : tests, installation, etc...)
-Nous avons des tests à chaque fin de cycle permettant de bien vérifier que tout marche comme il faut. De plus, nous devons faire un rapport d’installation pour le client.
+Nous avons des tests à chaque fin de cycle permettant de bien vérifier que tout marche comme il faut. De plus, nous devons faire un rapport d’installation pour le client. Nous utilisons PHPUnit pour réaliser des tests unitaire sur le module PING.
 
 vi. A quelle dépendance le projet est-il soumis ?
 Le projet est soumis à dépendance temporel d’une semaine, en effet le projet commence à 9 heure le lundi 18/12 et finit le vendredi 22/12 à 18 heure. Il y a aussi une dimension géographique à respecter, nous devons effectuer le projet dans une salle dédiée à la SAE.

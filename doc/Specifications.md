@@ -1,6 +1,6 @@
 # Spécification
 
-![Figure 1 : Diagramme des cas d'utilisations](https://media.discordapp.net/attachments/1165993401452331129/1186291045189824552/Diagrame_cas_dutilisation.png?ex=6592b6a1&is=658041a1&hm=34983f3a4758ef4d11d826e2250479b6ec04df656d89c7c72b027cbe546123b6&=&format=webp&quality=lossless&width=1268&height=620 "Figure 1 : Diagramme des cas d'utilisations")
+![Figure 1 : Diagramme des cas d'utilisations](https://media.discordapp.net/attachments/1186326822724571277/1186583109920116786/diagramme_cas_utilisation.png?ex=6593c6a3&is=658151a3&hm=abb8249fe45fccf6797fcd99d493899c6efc17e8bd1af377de0c26f5211ad868&=&format=webp&quality=lossless&width=1285&height=621 "Figure 1 : Diagramme des cas d'utilisations")
 Figure 1 : Diagramme des cas d'utilisations
 
 ## Cas d’utilisation 1 : Accéder à des modules
@@ -19,3 +19,16 @@ Figure 1 : Diagramme des cas d'utilisations
 - Scénario :
 1. L’utilisateur clique sur un bouton permettant d’accéder au module souhaité
 2. L’utilisateur est redirigé sur la page du module souhaité
+
+## Cas d’utilisation 3 : Accéder au module ping
+- Nom : Accéder au module ping
+- Portée : Page d’accueil
+- Niveau : Sous-système
+- Acteur principal : L’utilisateur
+- Scénario :
+1. L’utilisateur clique sur un bouton permettant d’accéder au module ping
+2. L’utilisateur est redirigé sur la page du module ping
+3. L’utilisateur spécifie l’host 
+4. L’utilisateur spécifie le nombre de ping à effectuer
+5. L’utilisateur choisi ou non le paramètre “-q”
+6. L’utilisateur choisi ou non le paramètre “-D”
