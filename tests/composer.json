@@ -1,0 +1,14 @@
+
+
+{
+    "autoload": {
+        "classmap": [
+            "../../scripts/"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    }
+}
+
+
