@@ -68,9 +68,20 @@ Le résultat de la requête est affiché une fois terminée.
 
 ![](https://media.discordapp.net/attachments/1186326822724571277/1186950850074116137/maquette_ping.png?ex=65951d1f&is=6582a81f&hm=feaf9e0be13a368c096b85e66a8bbcd517511feb292ea21a0c1ef446f276d5bd&=&format=webp&quality=lossless&width=1307&height=629)
 
+## Module IPV6
+
+Le module IPv6 permet à un utilisateur de simplifier une adresse IPv6 et de renvoyer son type. 
+Pour cela, l’utilisateur doit remplir un champ texte avec son adresse IPv6. Il clique ensuite sur le bouton permettant de lancer le module.
+
+Le résultat de la requête est affiché une fois terminée.
+
+Une fonction permettant de simplifier l’écriture est développée, de même pour obtenir le type de l’adresse ipv6.
+
+![](https://media.discordapp.net/attachments/1186326822724571277/1187023107022671912/Untitled-2022-10-28-17431.png?ex=6595606a&is=6582eb6a&hm=f14baf203de8312ef0258c4957120eb30ee9990bf74a881007340bf8b2e897fc&=&format=webp&quality=lossless&width=1246&height=593)
+
 
 ## Conception architecturale
 
 Nous utilisons un ensemble de fichiers HTML et CSS interagissant entre eux.
 
-![](https://media.discordapp.net/attachments/1186326822724571277/1186938393578455150/image.png?ex=65951185&is=65829c85&hm=d7b85fd6da7ee68e2bff6ad3ef0b161b87536d0e7e8aa068deeec4bcbb0cfead&=&format=webp&quality=lossless)
+![](https://media.discordapp.net/attachments/1186326822724571277/1187039155335737354/image.png?ex=65956f5c&is=6582fa5c&hm=28aec8b673c4d975686e66c854e95a7ef657de7d41445b448f73e1e5e3fadaf2&=&format=webp&quality=lossless&width=1178&height=593)
