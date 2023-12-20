@@ -51,8 +51,26 @@ Tous nos pages utilisent la police de caractères Roboto 500.
 
 https://fonts.google.com/specimen/Roboto
 
+## Module PING
+
+Le module PING propose à un utilisateur de “pinger” une adresse IP ou un nom de domaine. Pour cela, il remplit un champ texte. Il peut également choisir des paramètres pour sa requête.
+Le paramètre -c permet d'arrêter la commande après l'envoi d’un certain nombre de paquets. L’utilisateur peut remplir champ d’entier strictement positif et non nul. Si l’utilisateur ne rentre pas de valeur pour -c, la valeur 3 est choisie.
+Le paramètre -D permet d'afficher un horodatage avant chaque ligne. Une case à cocher, checkbox est utilisée. Il n’est pas obligatoire.
+Le paramètre -q permet d’afficher en sortie silencieuse. Une case à cocher, checkbox est utilisée. Il n’est pas obligatoire.
+
+Au survol des paramètres, un texte explicatif apparaît décrivant les fonctionnalités du paramètre.
+
+Un bouton permet d’exécuter la requête.
+
+La requête PING est affichée en texte en temps réel en fonction des choix de l’utilisateur.
+
+Le résultat de la requête est affiché une fois terminée.
+
+![](https://media.discordapp.net/attachments/1186326822724571277/1186950850074116137/maquette_ping.png?ex=65951d1f&is=6582a81f&hm=feaf9e0be13a368c096b85e66a8bbcd517511feb292ea21a0c1ef446f276d5bd&=&format=webp&quality=lossless&width=1307&height=629)
+
+
 ## Conception architecturale
 
 Nous utilisons un ensemble de fichiers HTML et CSS interagissant entre eux.
 
-![](https://media.discordapp.net/attachments/1165993401452331129/1186327119446425731/image.png?ex=6592d83a&is=6580633a&hm=ae5df3b65d8bbccaac038b27332fe98cbdf45e81fd083b95ad6388de9763a2f9&=&format=webp&quality=lossless&width=968&height=621)
+![](https://media.discordapp.net/attachments/1186326822724571277/1186938393578455150/image.png?ex=65951185&is=65829c85&hm=d7b85fd6da7ee68e2bff6ad3ef0b161b87536d0e7e8aa068deeec4bcbb0cfead&=&format=webp&quality=lossless)
