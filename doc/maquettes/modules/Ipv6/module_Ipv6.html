@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/default.css">
+    <link rel="stylesheet" href="./module_Ipv6.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"> 
+    <title>Maquette Web | Ipv6</title>
+</head>
+<body>
+    <nav>
+        <a href="../../index.html">
+            <img id="logo" src="../../img/logo.png" alt="" srcset="">
+        </a>
+    </nav>
+    <main>
+        <h1>Module Ipv6</h1>
+        <div id="content">
+            <div id="div_left">
+                 <form action="traitement_IPV6.php" method="POST">
+                    <div id="div_inputs">
+                        <label for="inputIpv6">Ipv6 valide (":" automatiques)</label>
+                        <input id="inputIpv6" name="inputIpv6" type="text" placeholder="ex : 61fd:6da5:b89f:fd68:07d4:bbc5:146e:96cd" maxlength="39" minlength="39" pattern="^([0-9a-fA-F]{1,4}:)*([0-9a-fA-F]{1,4}:)?[0-9a-fA-F]{1,4}$" required>
+                    </div>
+                    <div id="div_submit">
+                        <input type="submit" id="input_submit" value="Simplifier/Savoir la classe" name="input_submit"/>
+                    </div>
+                </form>
+            </div>
+            <div id="div_right">
+                <label for="result" id="resultLabel">Résultat</label>
+                <textarea id="result" readonly rows="4" cols="50">
+resultat de test
+1
+2
+3
+4
+                </textarea>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2023 - Tous droits réservés</p>
+    </footer>
+    <script src="./ip_autocomplete.js"></script>
+</body>
+</html>
