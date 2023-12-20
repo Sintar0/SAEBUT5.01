@@ -60,4 +60,4 @@ Le module PING consiste à proposer à un utilisateur de “ping” une adresse 
 # IV./ Priorités
 
 Il n’y a pas particulièrement de priorités convenues avec le client. 
-Cependant, la priorité pour ce “cycle” dans notre développement est d’avoir une interface accessible à tous et responsive pour pouvoir s’adapter à tout type d’appareil.
+Cependant, la priorité pour ce “cycle” dans notre développement est d’implémenter le module ping.
