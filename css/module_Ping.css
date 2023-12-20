@@ -129,6 +129,12 @@ label {
     resize: none;
 }
 
+#domaineVide {
+    color: red;
+    margin-top: -2%;
+    margin-left: 2%;
+}
+
 @media screen and (max-width: 1400px) {
     #content {
         flex-direction: column;

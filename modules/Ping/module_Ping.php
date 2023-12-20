@@ -31,7 +31,12 @@ echo $navbar;
                 <form action="./traitement_ping.php" method="POST" onchange="updatePreview()">
                     <div id="div_inputs">
                         <label for="inputDomain">Domaine / IP:</label>
-                        <input id="inputDomain" name="inputDomain" type="text" value="www.example.com" placeholder="www.example.com" maxlength="100" onkeyup="updatePreview()">
+                        <input id="inputDomain" name="inputDomain" type="text" value="www.example.com" placeholder="www.example.com" maxlength="100" required onkeyup="updatePreview()">
+                        <?php
+                            if (isset($_COOKIE['domaineVide'])) {
+                                echo "<p id=\"domaineVide\">".$_COOKIE['domaineVide'];
+                            }
+                        ?>
                         <div id="flags">
                             <div>
                                 <label for="inputC">-c :</label>
@@ -55,11 +60,11 @@ echo $navbar;
             <div id="div_right">
                 <label for="result" id="resultLabel">Résultat</label>
                 <textarea name="result" id="result" readonly rows="4" cols="50">
-                <?php
-                    if (isset($_COOKIE['returnRequest'])) {
-                        echo $_COOKIE['returnRequest'];
-                    }
-                ?>
+<?php
+    if (isset($_COOKIE['returnRequest'])) {
+    echo $_COOKIE['returnRequest'];
+    }
+?>
                 </textarea>
             </div>
         </div>
