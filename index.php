@@ -1,8 +1,7 @@
 <?php
-$navbar = require 'component/navbar.php';
+$navbar = require 'component/navbar_index.php';
 $footer = require 'component/footer.php';
-
-echo '
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -16,15 +15,15 @@ echo '
     <title>Hoguins Memory | Home</title>
 </head>
 <body>
-';
+<?php
 echo $navbar;
-echo '
+?>
 <main id="content">
 <div id="content-header">
     <h1>Bienvenue</h1>
 </div>
 <div id="content-body">
-';
+<?php
 $dirList = glob("./modules" . '/*' , GLOB_ONLYDIR);
 for($i=0; $i < count($dirList); $i++) {
     $fileName = explode("/",$dirList[$i])[2];
@@ -37,8 +36,6 @@ for($i=0; $i < count($dirList); $i++) {
     echo "
         <div id='module-body'>
             <h2 id='titre_module'>$fileName</h2>
-        ";
-        echo "
             <p id='description_module'>
         ";
         $fo = fopen("./modules/$fileName/description.txt", "r");
@@ -48,14 +45,11 @@ for($i=0; $i < count($dirList); $i++) {
         }
         echo "
             </p>
-        ";
-    echo "
         </div>
     </div>
     </a>
     ";
 }
-echo '
+?>
 </div>
 </main>
-';
