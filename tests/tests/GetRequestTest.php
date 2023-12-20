@@ -12,5 +12,12 @@ final class GetRequestTest extends TestCase
         $result = get_request('example.com', 5, true, true);
         $this->assertEquals($expected, $result);
     }
+
+    public function testGetRequestWithNoCountArgument(): void
+    {
+        $expected = 'ping example.com -q -D';
+        $result = get_request('example.com', 0, true, true);
+        $this->assertEquals($expected, $result);
+    }
 }
 
