@@ -1,0 +1,1 @@
+Ce module sert à tester la connexion à un serveur distant
