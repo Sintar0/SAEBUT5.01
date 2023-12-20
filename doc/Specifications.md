@@ -1,6 +1,6 @@
 # Spécification
 
-![Figure 1 : Diagramme des cas d'utilisations](https://media.discordapp.net/attachments/1186326822724571277/1186583109920116786/diagramme_cas_utilisation.png?ex=6593c6a3&is=658151a3&hm=abb8249fe45fccf6797fcd99d493899c6efc17e8bd1af377de0c26f5211ad868&=&format=webp&quality=lossless&width=1285&height=621 "Figure 1 : Diagramme des cas d'utilisations")
+![Figure 1 : Diagramme des cas d'utilisations](https://media.discordapp.net/attachments/1165993401452331129/1187018452251185273/image.png?ex=65955c14&is=6582e714&hm=2dbc36ca17ea2a255a88af1ab3c30f48ce79bab9831efc8498f72bc7b57b8601&=&format=webp&quality=lossless&width=1386&height=670 "Figure 1 : Diagramme des cas d'utilisations")
 Figure 1 : Diagramme des cas d'utilisations
 
 ## Cas d’utilisation 1 : Accéder à des modules
