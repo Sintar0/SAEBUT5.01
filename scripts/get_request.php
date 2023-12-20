@@ -17,23 +17,23 @@ function get_request($host, $c, $q, $d) {
           $request: str   --> La requête complète
   */
 
-  $request = "ping";
+  $request = "ping ";
 
   if($c > 0) {
-          $request .= " -c " . strval($c) . " ";
+          $request .= "-c " . strval($c);
   }
 
   if(!empty($host)) {
-          $request .=  $host;
+        $request .=  " " . $host;
   } else {
           throw new Exception('HOST vide');
   }
 
   if($q)
-            $request .= " -q ";
+            $request .= " -q";
 
   if($d)
-            $request .= " -D ";
+            $request .= " -D";
 
   return $request;
 
