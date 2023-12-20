@@ -24,7 +24,7 @@ function get_request($host, $c, $q, $d) {
   }
 
   if(!empty($host)) {
-          $request .=  $host;
+        $request .=  " " . $host;
   } else {
           throw new Exception('HOST vide');
   }
