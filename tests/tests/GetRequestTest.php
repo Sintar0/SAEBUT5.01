@@ -19,5 +19,12 @@ final class GetRequestTest extends TestCase
         $result = get_request('example.com', 0, true, true);
         $this->assertEquals($expected, $result);
     }
+
+    public function testGetRequestWithEmptyHostThrowsException(): void
+    {
+        $this->expectException(Exception::class);
+        $this->expectExceptionMessage('HOST vide');
+        get_request('', 5, true, true);
+    }
 }
 
