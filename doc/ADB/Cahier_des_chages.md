@@ -22,12 +22,16 @@ Développer un serveur web avec une interface permettant aux visiteurs d’y acc
 
 De plus, le client souhaite qu’on développe un module permettant à un utilisateur de pouvoir exécuter des commandes PING sur une adresse IP ou une URL.
 
+Le client souhaite aussi un module permettant de simplifier une adresse IPv6 et de trouver sa classe. 
+
 ## Définition des objectifs que doit atteindre la solution.
 
 L'interface web comprend une structure similaire à toutes les pages du serveur Web. Elle s’appuie sur une maquette et une charte graphique. Ces deux documents sont disponibles en Annexe. Chaque module possède sa propre interface afin de s’adapter à ses besoins.
 L’interface essaiera d’intégrer le plus de fonctionnalités pour qu’elle respecte les principes de l’accessibilité.
 
-Le module PING consiste à proposer à un utilisateur de “ping” une adresse IP ou un URL avec des paramètres afin de tester par exemple l'accessibilité de différentes machines sur un réseau local. 
+Le module PING consiste à proposer à un utilisateur de “ping” une adresse IP ou un URL avec des paramètres afin de tester par exemple l'accessibilité de différentes machines sur un réseau local.
+
+Le module adresse IPv6 consiste à proposer une simplification claire d’une adresse entrée par l’utilisateur. 
 
 # III./ Pré-requis
 
@@ -48,6 +52,7 @@ Le module PING consiste à proposer à un utilisateur de “ping” une adresse 
 - D’un éditeur de code comme Visual Studio Code.
 - Pour réaliser la maquette de l’interface, nous utilisons le logiciel Microsoft WhiteBoard.
 - La machine sur lequel sera exécuté le module ping devra être doté du système Linux pour assurer le fonctionnement du ping.
+- Le module IPv6 se faisant exclusivement via PHP, celui-ci n’est pas dépendant d’un système d’exploitation défini.
 
 ## Compétences nécessaires.
 
@@ -56,6 +61,9 @@ Le module PING consiste à proposer à un utilisateur de “ping” une adresse 
 - Communication afin de rendre un projet cohérent avec l'énoncé du projet.
 - Savoir coder une interface web avec PHP, HTML, CSS pour accueillir les différents modules présents sur le site.
 - Tests d’acceptations pour l’interface web
+- Test unitaire pour le module PING, le module IPv6 
+- Utilisation de PHP Unit
+
 
 # IV./ Priorités
 
