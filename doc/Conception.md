@@ -79,6 +79,15 @@ Une fonction permettant de simplifier l’écriture est développée, de même p
 
 ![](https://media.discordapp.net/attachments/1186326822724571277/1187023107022671912/Untitled-2022-10-28-17431.png?ex=6595606a&is=6582eb6a&hm=f14baf203de8312ef0258c4957120eb30ee9990bf74a881007340bf8b2e897fc&=&format=webp&quality=lossless&width=1246&height=593)
 
+## Module IPv4 
+
+Le module IPv4 permet à un utilisateur de faire une division en sous-réseaux d’une adresse IPv4. 
+Pour cela, l’utilisateur devra remplir plusieurs champs : un champ texte avec l’adresse IPv4, un autre champ pour le masque ainsi qu’un champ pour le nombre de divisions (nombre de sous-réseaux). 
+Une fois le nombre de sous-réseaux choisi, un nombre de lignes correspondant au nombre de sous-réseaux apparaîtra en dessous des champs. Il y a 2 champs en plus à remplir par ligne (sous-réseau), l’un pour le nom du sous-réseau et l’autre pour le nombre de machines alloué au sous-réseau. 
+
+On peut ensuite lancer le programme via le bouton “calculer” qui renverra le résultat de la requête.
+
+![](https://cdn.discordapp.com/attachments/1165993401452331129/1187405404557291653/Untitled-2022-10-28-17432.png?ex=6596c475&is=65844f75&hm=2ee64407e5279f7005d64c7702b263292c9aad99a6eb45832edbc3de2f401925&)
 
 ## Conception architecturale
 
