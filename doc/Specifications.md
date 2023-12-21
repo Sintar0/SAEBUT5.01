@@ -32,3 +32,15 @@ Figure 1 : Diagramme des cas d'utilisations
 4. L’utilisateur spécifie le nombre de ping à effectuer
 5. L’utilisateur choisi ou non le paramètre “-q”
 6. L’utilisateur choisi ou non le paramètre “-D”
+
+## Cas d’utilisation 4 : Lancer le module IPv6
+- Nom : Lancer le module IPv6
+- Portée : Page d’accueil/page du module IPv6
+- Niveau : Sous-système
+- Acteur principal : L’utilisateur
+- Scénario :
+    1. L’utilisateur clique sur un bouton permettant d’accéder au module IPv6
+    2. L’utilisateur est redirigé sur la page du module IPv6
+    3. L’utilisateur rentre une adresse IPv6 
+    4. L’utilisateur clique sur le bouton OK/Démarrer
+    5. L’utilisateur obtient une écriture simplifiée de son adresse ainsi que le type d’adresse en sortie
