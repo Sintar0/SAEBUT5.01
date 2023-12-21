@@ -9,7 +9,6 @@ foreach ($_COOKIE as $key => $value )
     setcookie($key, $value, $past);
 }
 
-echo strlen($_POST['inputIpv6']);
 
 if (isset($_POST['inputIpv6']) and strlen($_POST['inputIpv6']) == 39) {
 
