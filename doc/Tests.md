@@ -42,6 +42,15 @@ Définition du contexte des tests en s'appuyant sur le type de tableau suivant :
 | Tests à appliquer : liste de références aux descriptions des tests | Tests unitaires                    |
 | Responsable de la campagne de test :                               | Maxence GONTRAN & Julien LAUDICINA |
 
+| Produit testé :           Module Ipv6                              |                                                    |
+| ------------------------------------------------------------------ | -------------------------------------------------- |
+| Configuration logicielle :                                         | PHP/JS                                             |
+| Configuration matérielle :                                         | Système Linux                                      |
+| Date de début :                                                    | 21/12                                              |
+| Date de finalisation :                                             | 21/12                                              |
+| Tests à appliquer : liste de références aux descriptions des tests | Tests unitaires                                    |
+| Responsable de la campagne de test :                               | MERABET Yanis & Julien LAUDICINA & GONTRAN Maxence |
+
 ### 3.2 Tests
 
 Définition de chaque test selon le tableau suivant :
@@ -60,6 +69,33 @@ Définition de chaque test selon le tableau suivant :
 ##### 3.2.2.1 Test 1 
 
 ![Test 2 : Module ping](https://cdn.discordapp.com/attachments/688037836003213449/1186786740862730260/image.png?ex=65948448&is=65820f48&hm=1c651cb6d552dd47e8e9d0db11efccb1fb46f1518a5a48942eedb49c54115d67&)
+
+#### 3.2.3 Module Ipv6
+
+##### 3.2.3.1  Test 1
+
+ <table>
+    <tr>
+        <td>Identification du test : 3</td>
+        <td colspan="5">Version : 1.0</td>
+    </tr>
+    <tr>
+        <td colspan="5">Description du test : Test de la classe et simplification, test unitaire </td>
+    </tr>
+    <tr>
+        <td colspan="5">Ressources requises : (listes des ressources nécessaires, logiciels, matériel, données) :  PHPUnit</td>
+    </tr>
+    <tr>
+        <td colspan="5">Responsable : Yanis et Maxence</td>
+    </tr>
+    <tr>
+        <td>Etat initial : module implémenté</td>
+        <td>Cas testé : divers type d'adresse ip</td>
+        <td>Acteurs : L'équipe de developpement</td>
+        <td>Actions : Réalisation d'un tableau faisant état des entrées/sortie attendus</td>
+        <td>Résultats attendus : Simplification et Classe conforme</td>
+    </tr>
+</table>
 
 ### 3.3 Résultats de test
 
@@ -101,3 +137,95 @@ Définition des résultats de chaque test selon le tableau suivant :
 | Date de l'application du test :                      | 19/12/2023   |
 | Résultat du test : (OK, KO, non fait, dérogé)        | OK           |
 | Occurrences des résultats : (éventuel, systématique) | Systematique |
+
+#### 3.3.3  Résultat du test du module ping 
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky">IP</th>
+    <th class="tg-0pky">Simplification attendue</th>
+    <th class="tg-0pky">Simplification observée</th>
+    <th class="tg-0pky">Classe attendue</th>
+    <th class="tg-0pky">Classe observée</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">2001:0db8:0000:0000:0000:0000:0000:7334</td>
+    <td class="tg-0pky">2001:db8::7334</td>
+    <td class="tg-0pky">2001:db8::7334</td>
+    <td class="tg-0pky">Global Unicast</td>
+    <td class="tg-0pky">Unspecified</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">2001:0DB8:AB00:CD00:EF00:0000:0000:0012</td>
+    <td class="tg-0pky">2001:db8:ab00:cd00:ef00::12</td>
+    <td class="tg-0pky">2001:db8:ab00:cd00:ef00::12</td>
+    <td class="tg-0pky">Global Unicast</td>
+    <td class="tg-0pky">Unspecified</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">fe80:0000:0000:0000:0204:61ff:fe9d:f156</td>
+    <td class="tg-0pky">fe80::204:61ff:fe9d:f156</td>
+    <td class="tg-0pky">fe80::204:61ff:fe9d:f156</td>
+    <td class="tg-0pky">Link-Local</td>
+    <td class="tg-0pky">Link-Local</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">0000:0000:0000:0000:0000:0000:0000:0000</td>
+    <td class="tg-0lax">::</td>
+    <td class="tg-0lax">::</td>
+    <td class="tg-0lax">Unspecified</td>
+    <td class="tg-0lax">Unspecified</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff</td>
+    <td class="tg-0lax">ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff</td>
+    <td class="tg-0lax">ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff</td>
+    <td class="tg-0lax">Multicast</td>
+    <td class="tg-0lax">Anycast</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">1111:1111:1111:1111:1111:1111:1111:1111</td>
+    <td class="tg-0lax">1111:1111:1111:1111:1111:1111:1111:1111</td>
+    <td class="tg-0lax">1111:1111:1111:1111:1111:1111:1111:1111</td>
+    <td class="tg-0lax">Anycast</td>
+    <td class="tg-0lax">Anycast</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">0000:0000:0000:0000:0000:0000:0000:0001</td>
+    <td class="tg-0lax">::1</td>
+    <td class="tg-0lax">::1</td>
+    <td class="tg-0lax">Loopback</td>
+    <td class="tg-0lax">Anycast</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">FC00:0000:0000:0000:0000:0000:0000:0000</td>
+    <td class="tg-0lax">fc00::</td>
+    <td class="tg-0lax">fc00::</td>
+    <td class="tg-0lax">Unique Local</td>
+    <td class="tg-0lax">Unspecified</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">FD00:0000:0000:0000:0000:0000:0000:0000</td>
+    <td class="tg-0lax">fd00::</td>
+    <td class="tg-0lax">fd00::</td>
+    <td class="tg-0lax">Unique Local</td>
+    <td class="tg-0lax">Unspecified</td>
+  </tr>
+</tbody>
+</table>
+
+### Observation 
+
+ 6 tests sur 9 ne sont pas conformes, ils montrent un écart entre le comportement attendu et le comportement observé. Une itération est donc de mise pour corriger cela.
