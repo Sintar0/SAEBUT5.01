@@ -22,10 +22,11 @@ function get_request($host, $c, $q, $d) {
   if($c > 0) {
           $request .= "-c " . strval($c);
   } else {
-          throw new Exception('Nombre de paquets à envoyer invalide');
+        $request .=  "-c 3";
   }
 
   
+
   if(!empty($host)) {
         $request .=  " " . $host;
   } else {
