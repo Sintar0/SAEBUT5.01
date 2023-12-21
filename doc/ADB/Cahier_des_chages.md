@@ -2,7 +2,7 @@
 
 ## Information générale sur le document
 
-Ce document vise à présenter l’analyse des besoins du projet, celui-ci sera incrémenté au fur et à mesure des différents livrables, celui-ci sera divisé en plusieurs sections. “L'Énoncé” traduit notre compréhension technique du problème posé par le client. Les pré-requis font l’état des connaissances, compétences et ressources nécessaires pour la réalisation du projet. Les Priorités permettent de séquencer le travail et de focaliser sur les fonctionnalités importante
+Ce document vise à présenter l’analyse des besoins du projet, celui-ci sera incrémenté au fur et à mesure des différents livrables, celui-ci sera divisé en plusieurs sections. “L'Énoncé” traduit notre compréhension technique du problème posé par le client. Les pré-requis font l’état des connaissances, compétences et ressources nécessaires pour la réalisation du projet. Les Priorités permettent de séquencer le travail et de focaliser sur les fonctionnalités importantes
 
 ## Objectifs du document
 
@@ -10,7 +10,12 @@ Les objectifs de ce document sont d’identifier le problème, documenter les ex
 
 ## Structure et les documents référencés.
 
-Un document Annexe est rattaché à ce document. Il présente différents documents tel que des images ou des PDF pour illustrer notre projet.
+Ce document est le premier d’une série de 5 documents ; les suivants étant : 
+- Le recueil des besoins
+- La spécification qui liste les différents scénarii dans lesquels l’application sera utilisée
+- La conception qui détaille la manière dont a été réfléchi le site web
+- Le dossier de test qui détaille la procédure de test du site et ses différents modules
+
 
 # II./ Enoncé
 
