@@ -27,4 +27,13 @@ final class IPV6Test extends TestCase
         $this->assertEquals($expectedSimplification, $resultSimplify);
     }
 
+    public function testLinkLocal(): void
+    {
+        $expectedSimplification = 'fe80::204:61ff:fe9d:f156';
+        $expectedType = 'Link-Local : Unicast';
+        $resultSimplify = simplify_ipv6('fe80:0000:0000:0000:0204:61ff:fe9d:f156');
+        $resultType = get_type_ipv6('fe80:0000:0000:0000:0204:61ff:fe9d:f156');
+        $this->assertEquals($expectedType, $resultType);
+        $this->assertEquals($expectedSimplification, $resultSimplify);
+    }
 }
