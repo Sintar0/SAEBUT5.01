@@ -56,4 +56,14 @@ final class IPV6Test extends TestCase
         $this->assertEquals($expectedType, $resultType);
         $this->assertEquals($expectedSimplification, $resultSimplify);
     }
+
+    public function testAnycast(): void
+    {
+        $expectedSimplification = '1111:1111:1111:1111:1111:1111:1111:1111';
+        $expectedType = 'Anycast';
+        $resultSimplify = simplify_ipv6('1111:1111:1111:1111:1111:1111:1111:1111');
+        $resultType = get_type_ipv6('1111:1111:1111:1111:1111:1111:1111:1111');
+        $this->assertEquals($expectedType, $resultType);
+        $this->assertEquals($expectedSimplification, $resultSimplify);
+    }
 }
