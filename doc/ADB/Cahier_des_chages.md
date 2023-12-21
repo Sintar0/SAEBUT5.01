@@ -73,7 +73,7 @@ Le module IPv4 permet une division d'une adresse IPv4 en sous-réseaux avec diff
 - Communication afin de rendre un projet cohérent avec l'énoncé du projet.
 - Savoir coder une interface web avec PHP, HTML, CSS pour accueillir les différents modules présents sur le site.
 - Tests d’acceptations pour l’interface web
-- Test unitaire pour le module PING, le module IPv6 
+- Test unitaire pour le module PING, le module IPv6 et le module IPv4
 - Utilisation de PHP Unit
 
 
