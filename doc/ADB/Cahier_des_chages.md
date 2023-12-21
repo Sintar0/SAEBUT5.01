@@ -80,4 +80,4 @@ Le module IPv4 permet une division d'une adresse IPv4 en sous-réseaux avec diff
 # IV./ Priorités
 
 Il n’y a pas particulièrement de priorités convenues avec le client. 
-Cependant, la priorité pour ce “cycle” dans notre développement est d’implémenter le module ping.
+Cependant, la priorité pour ce “cycle” dans notre développement est d'implémenter le module IPv4
