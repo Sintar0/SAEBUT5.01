@@ -1,0 +1,1 @@
+Ce module sert à afficher le type ou simplifier d'une ipv6
