@@ -79,6 +79,10 @@ Une fonction permettant de simplifier l’écriture est développée, de même p
 
 ![](https://media.discordapp.net/attachments/1186326822724571277/1187023107022671912/Untitled-2022-10-28-17431.png?ex=6595606a&is=6582eb6a&hm=f14baf203de8312ef0258c4957120eb30ee9990bf74a881007340bf8b2e897fc&=&format=webp&quality=lossless&width=1246&height=593)
 
+Nous avons utilisé le document ci-dessous pour implémenter les différents types d’adresses IPv6.
+
+![](https://technoskillscom.files.wordpress.com/2021/01/image-16.png?w=605)
+
 ## Module IPv4 
 
 Le module IPv4 permet à un utilisateur de faire une division en sous-réseaux d’une adresse IPv4. 
