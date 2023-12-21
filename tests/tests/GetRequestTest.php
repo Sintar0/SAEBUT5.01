@@ -55,10 +55,10 @@ final class GetRequestTest extends TestCase
         $this->assertEquals($expected, $result);
     }
 
-    public function testAllFlagsFalse(): void
+    public function testAllFlags(): void
     {
-        $expected = 'ping -c 3 example.com';
-        $result = get_request('example.com', 0, false, false);
+        $expected = 'ping -c 5 example.com -q -D';
+        $result = get_request('example.com', 5, true, true);
         $this->assertEquals($expected, $result);
     }
 
@@ -69,6 +69,20 @@ final class GetRequestTest extends TestCase
         get_request('', 0, false, true);
     }
 
+    public function testNoArgumentsThrowsException(): void
+    {
+        $this->expectException(Exception::class);
+        $this->expectExceptionMessage('HOST vide');
+        get_request('', 0, false, false);
+    }
+
+    public function testQFlagAndEmptyHostThrowsException(): void
+    {
+        $this->expectException(Exception::class);
+        $this->expectExceptionMessage('HOST vide');
+        get_request('', 0, true, false);
+    }
+
     public function testCFlagAndEmptyHostThrowsException(): void
     {
         $this->expectException(Exception::class);
@@ -76,10 +90,31 @@ final class GetRequestTest extends TestCase
         get_request('', 5, false, false);
     }
 
-    public function testNoArgumentsThrowsException(): void
+    public function testDAndQFlagAndEmptyHostThrowsException(): void
     {
         $this->expectException(Exception::class);
         $this->expectExceptionMessage('HOST vide');
-        get_request('', 0, false, false);
+        get_request('', 0, true, true);
+    }
+
+    public function testDAndCFlagAndEmptyHostThrowsException(): void
+    {
+        $this->expectException(Exception::class);
+        $this->expectExceptionMessage('HOST vide');
+        get_request('', 5, false, true);
+    }
+
+    public function testQAndCFlagAndEmptyHostThrowsException(): void
+    {
+        $this->expectException(Exception::class);
+        $this->expectExceptionMessage('HOST vide');
+        get_request('', 5, true, false);
+    }
+
+    public function testAllFlagsAndEmptyHostThrowsException(): void
+    {
+        $this->expectException(Exception::class);
+        $this->expectExceptionMessage('HOST vide');
+        get_request('', 5, true, true);
     }
 }
