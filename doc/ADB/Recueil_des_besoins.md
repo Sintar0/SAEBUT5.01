@@ -20,6 +20,12 @@ Les modules ne pourront pas être modifiés par les utilisateurs et ils ne pourr
 - Repository (Git) : dossier Git où se trouvera toute l’avancée du projet 
 - Gitlab : site sur lequel est notre repository
 - Navigateur web : interface graphique permettant d’accéder à Internet et de naviguer à travers les différents sites web.
+- Ping : commande permettant de tester une connexion réseau en envoyant des données et en mesurant le temps passé avant de recevoir une réponse.
+- Adresse IP : numéro d’identification d’une machine connectée à Internet (routeur) sous la forme xxx.xxx.xxx.xxx
+- Masque de sous-réseau : filtre appliqué aux adresses IP pour créer des réseaux indépendants les uns des autres
+Notation CIDR → notation de l’adresse IP et du masque dans laquelle le masque est sous la forme d’un nombre (/nombre) au lieu d’une adresse réseau. (exemple : 192.168.1.1/24)
+- IPv4/IPv6 : protocoles permettant d’attribuer des adresses IP à des appareils sur Internet (IPv6 étant plus récent que IPv4)
+
 
 # Chapitre 3 – Les cas d'utilisation
 
