@@ -21,7 +21,11 @@ function get_request($host, $c, $q, $d) {
 
   if($c > 0) {
           $request .= "-c " . strval($c);
+  } else {
+        $request .=  "-c 3";
   }
+
+  
 
   if(!empty($host)) {
         $request .=  " " . $host;
