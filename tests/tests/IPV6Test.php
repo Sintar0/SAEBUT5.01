@@ -36,4 +36,14 @@ final class IPV6Test extends TestCase
         $this->assertEquals($expectedType, $resultType);
         $this->assertEquals($expectedSimplification, $resultSimplify);
     }
+
+    public function testUnspecified(): void
+    {
+        $expectedSimplification = '::';
+        $expectedType = 'Unspecified : Unicast';
+        $resultSimplify = simplify_ipv6('0000:0000:0000:0000:0000:0000:0000:0000');
+        $resultType = get_type_ipv6('0000:0000:0000:0000:0000:0000:0000:0000');
+        $this->assertEquals($expectedType, $resultType);
+        $this->assertEquals($expectedSimplification, $resultSimplify);
+    }
 }
