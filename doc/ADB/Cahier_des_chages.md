@@ -22,12 +22,15 @@ Ce document est le premier d’une série de 5 documents ; les suivants étant :
 ## Contexte
 
 Ce projet s'inscrit dans le cadre de la SAE du semestre 5, le client nous a transmis son cahier des charges, la deadline pour ce projet est le vendredi 22 décembre à 18h. Nous disposons d’une période de 5 jours pour livrer le rendu final.
-Objectifs du projet
+
+## Objectifs du projet
 Développer un serveur web avec une interface permettant aux visiteurs d’y accéder sans authentification.
 
 De plus, le client souhaite qu’on développe un module permettant à un utilisateur de pouvoir exécuter des commandes PING sur une adresse IP ou une URL.
 
 Le client souhaite aussi un module permettant de simplifier une adresse IPv6 et de trouver sa classe. 
+
+Enfin, le client souhaite un module “IPv4”, celui-ci doit pour une adresse IPv4 donnée, un masque de sous-réseau et un nombre de sous-réseaux voulus, produire une division en sous-réseau avec un nombre de machines par sous-réseau déterminé par l’utilisateur
 
 ## Définition des objectifs que doit atteindre la solution.
 
@@ -38,7 +41,7 @@ Le module PING consiste à proposer à un utilisateur de “ping” une adresse 
 
 Le module adresse IPv6 consiste à proposer une simplification claire d’une adresse entrée par l’utilisateur. 
 
-Enfin, le client souhaite un module “IPv4”, celui-ci doit pour une adresse IPv4 donnée, un masque de sous-réseau et un nombre de sous-réseaux voulus, produire une division en sous-réseau avec un nombre de machines par sous-réseau déterminé par l’utilisateur
+Le module IPv4 permet une division d'une adresse IPv4 en sous-réseaux avec différents paramètres à ajouter permettant de lancer le module.
 
 
 # III./ Pré-requis
