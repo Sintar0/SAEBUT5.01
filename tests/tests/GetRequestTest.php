@@ -47,4 +47,11 @@ final class GetRequestTest extends TestCase
         $result = get_request('example.com', 5, false, true);
         $this->assertEquals($expected, $result);
     }
+
+    public function testQAndCFlags(): void
+    {
+        $expected = 'ping -c 5 example.com -q';
+        $result = get_request('example.com', 5, true, false);
+        $this->assertEquals($expected, $result);
+    }
 }
