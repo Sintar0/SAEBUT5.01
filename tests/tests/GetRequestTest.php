@@ -103,4 +103,11 @@ final class GetRequestTest extends TestCase
         $this->expectExceptionMessage('HOST vide');
         get_request('', 5, false, true);
     }
+
+    public function testQAndCFlagAndEmptyHostThrowsException(): void
+    {
+        $this->expectException(Exception::class);
+        $this->expectExceptionMessage('HOST vide');
+        get_request('', 5, true, false);
+    }
 }
