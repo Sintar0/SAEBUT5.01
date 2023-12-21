@@ -38,6 +38,9 @@ Le module PING consiste à proposer à un utilisateur de “ping” une adresse 
 
 Le module adresse IPv6 consiste à proposer une simplification claire d’une adresse entrée par l’utilisateur. 
 
+Enfin, le client souhaite un module “IPv4”, celui-ci doit pour une adresse IPv4 donnée, un masque de sous-réseau et un nombre de sous-réseaux voulus, produire une division en sous-réseau avec un nombre de machines par sous-réseau déterminé par l’utilisateur
+
+
 # III./ Pré-requis
 
 ## Connaissances requises
