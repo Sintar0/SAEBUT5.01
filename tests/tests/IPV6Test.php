@@ -66,4 +66,14 @@ final class IPV6Test extends TestCase
         $this->assertEquals($expectedType, $resultType);
         $this->assertEquals($expectedSimplification, $resultSimplify);
     }
+
+    public function testLoopback(): void
+    {
+        $expectedSimplification = '::1';
+        $expectedType = 'Loopback';
+        $resultSimplify = simplify_ipv6('0000:0000:0000:0000:0000:0000:0000:0001');
+        $resultType = get_type_ipv6('0000:0000:0000:0000:0000:0000:0000:0001');
+        $this->assertEquals($expectedType, $resultType);
+        $this->assertEquals($expectedSimplification, $resultSimplify);
+    }
 }
