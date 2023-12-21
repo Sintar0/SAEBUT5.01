@@ -86,4 +86,14 @@ final class IPV6Test extends TestCase
         $this->assertEquals($expectedType, $resultType);
         $this->assertEquals($expectedSimplification, $resultSimplify);
     }
+
+    public function testUniqueLocal2(): void
+    {
+        $expectedSimplification = 'fd00::';
+        $expectedType = 'Unique Local : Unicast';
+        $resultSimplify = simplify_ipv6('FD00:0000:0000:0000:0000:0000:0000:0000');
+        $resultType = get_type_ipv6('FD00:0000:0000:0000:0000:0000:0000:0000');
+        $this->assertEquals($expectedType, $resultType);
+        $this->assertEquals($expectedSimplification, $resultSimplify);
+    }
 }
