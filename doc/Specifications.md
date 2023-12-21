@@ -44,3 +44,20 @@ Figure 1 : Diagramme des cas d'utilisations
     3. L’utilisateur rentre une adresse IPv6 
     4. L’utilisateur clique sur le bouton OK/Démarrer
     5. L’utilisateur obtient une écriture simplifiée de son adresse ainsi que le type d’adresse en sortie
+
+
+## Cas d’utilisation 5 : Lancer le module IPv4 
+- Nom : Lancer le module IPv4 
+- Portée : Page d’accueil/page du module IPv4
+- Niveau : Sous-système
+- Acteur principal : L’utilisateur 
+- Scénario : 
+    1. L’utilisateur clique sur un bouton permettant d’accéder au module IPv4
+    2. L’utilisateur est redirigé sur la page du module IPv4
+    3. L’utilisateur rentre une adresse IPv4 dans le champ associé
+    4. L’utilisateur rentre le masque en notation CIDR dans le champ associé
+    5. L’utilisateur rentre un nombre de sous-réseaux dans le champ associé
+    6. L’utilisateur rentre le nom du sous-réseau
+    7. L’utilisateur rentre le nombre de machines allouées au sous-réseau
+    8. L’utilisateur clique sur le bouton calculer
+    9. L’utilisateur obtient en sortie toutes les informations de chaque sous-réseau (nom, nombre de machines nécessaires, nombre de machines allouées, adresse IP, masque, intervalle d’adresse disponibles, adresse de diffusion/broadcast)
