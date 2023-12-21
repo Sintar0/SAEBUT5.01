@@ -75,4 +75,11 @@ final class GetRequestTest extends TestCase
         $this->expectExceptionMessage('HOST vide');
         get_request('', 5, false, false);
     }
+
+    public function testNoArgumentsThrowsException(): void
+    {
+        $this->expectException(Exception::class);
+        $this->expectExceptionMessage('HOST vide');
+        get_request('', 0, false, false);
+    }
 }
