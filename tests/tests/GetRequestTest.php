@@ -19,4 +19,11 @@ final class GetRequestTest extends TestCase
         $result = get_request('example.com', 0, false, true);
         $this->assertEquals($expected, $result);
     }
+
+    public function testQFlagOnly(): void
+    {
+        $expected = 'ping -c 3 example.com -q';
+        $result = get_request('example.com', 0, true, false);
+        $this->assertEquals($expected, $result);
+    }
 }
