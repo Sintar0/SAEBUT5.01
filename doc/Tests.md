@@ -165,14 +165,14 @@ Définition des résultats de chaque test selon le tableau suivant :
     <td class="tg-0pky">2001:db8::7334</td>
     <td class="tg-0pky">2001:db8::7334</td>
     <td class="tg-0pky">Global Unicast</td>
-    <td class="tg-0pky">Unspecified</td>
+    <td class="tg-0pky">Global Unicast</td>
   </tr>
   <tr>
     <td class="tg-0pky">2001:0DB8:AB00:CD00:EF00:0000:0000:0012</td>
     <td class="tg-0pky">2001:db8:ab00:cd00:ef00::12</td>
     <td class="tg-0pky">2001:db8:ab00:cd00:ef00::12</td>
     <td class="tg-0pky">Global Unicast</td>
-    <td class="tg-0pky">Unspecified</td>
+    <td class="tg-0pky">Global Unicast</td>
   </tr>
   <tr>
     <td class="tg-0pky">fe80:0000:0000:0000:0204:61ff:fe9d:f156</td>
@@ -192,7 +192,7 @@ Définition des résultats de chaque test selon le tableau suivant :
     <td class="tg-0lax">ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff</td>
     <td class="tg-0lax">ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff</td>
     <td class="tg-0lax">ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff</td>
-    <td class="tg-0lax">Multicast</td>
+    <td class="tg-0lax">Anycast</td>
     <td class="tg-0lax">Anycast</td>
   </tr>
   <tr>
@@ -207,7 +207,7 @@ Définition des résultats de chaque test selon le tableau suivant :
     <td class="tg-0lax">::1</td>
     <td class="tg-0lax">::1</td>
     <td class="tg-0lax">Loopback</td>
-    <td class="tg-0lax">Anycast</td>
+    <td class="tg-0lax">Loopback</td>
   </tr>
   <tr>
     <td class="tg-0lax">FC00:0000:0000:0000:0000:0000:0000:0000</td>
@@ -228,4 +228,4 @@ Définition des résultats de chaque test selon le tableau suivant :
 
 ### Observation 
 
- 6 tests sur 9 ne sont pas conformes, ils montrent un écart entre le comportement attendu et le comportement observé. Une itération est donc de mise pour corriger cela.
+Les tests sont maintenant conforme au comportement attendus.
