@@ -64,6 +64,7 @@ Le module IPv4 permet une division d'une adresse IPv4 en sous-réseaux avec diff
 - Pour réaliser la maquette de l’interface, nous utilisons le logiciel Microsoft WhiteBoard.
 - La machine sur lequel sera exécuté le module ping devra être doté du système Linux pour assurer le fonctionnement du ping.
 - Le module IPv6 se faisant exclusivement via PHP, celui-ci n’est pas dépendant d’un système d’exploitation défini.
+- Le module IPv4 se faisant exclusivement via PHP, celui-ci n’est pas dépendant d’un système d’exploitation défini
 
 ## Compétences nécessaires.
 
