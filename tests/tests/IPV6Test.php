@@ -46,4 +46,14 @@ final class IPV6Test extends TestCase
         $this->assertEquals($expectedType, $resultType);
         $this->assertEquals($expectedSimplification, $resultSimplify);
     }
+
+    public function testMulticast(): void
+    {
+        $expectedSimplification = 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff';
+        $expectedType = 'Multicast';
+        $resultSimplify = simplify_ipv6('ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff');
+        $resultType = get_type_ipv6('ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff');
+        $this->assertEquals($expectedType, $resultType);
+        $this->assertEquals($expectedSimplification, $resultSimplify);
+    }
 }
