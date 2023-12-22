@@ -1,0 +1,1 @@
+Ce module sert à diviser une adresse ipv4 en sous-réseaux
