@@ -9,7 +9,13 @@ function cidr_to_ip($cidr): array|string {
      *      $cidr int -> le nombre à convertir
      * Retour :
      *      Un nombre de 32 bits
+     * Exception:
+     *      $cidr < 0
      */
+
+    if ($cidr < 0) {
+        throw new Exception("CIDR < 0");
+    }
 
     $ip = str_repeat("0", 32);
     return substr_replace($ip, str_repeat("1", $cidr), 0, $cidr);
@@ -19,12 +25,15 @@ function dec_to_bin_32_bit($dec) {
 
     /*
      * La fonction dec_to_bin_32_bit permet de convertir un
-     * nombre entier en un nombre de 32 bits
+     * nombre entier positif en un nombre de 32 bits
      * Paramètres:
      *      $dec int -> le nombre à convertir
      * Retour:
      *      Un nombre de 32 bits
      */
+
+    if ($dec < 0)
+        throw new Exception("\$dec < 0");
 
     $dec_bin = decbin($dec);
     $ip = str_repeat("0", 32 - strlen($dec_bin));
