@@ -1,0 +1,15 @@
+---
+version: "1.0"
+services:
+  web:
+    build: .
+    ports:
+      - 8000:5000
+    networks:
+      default:
+        ipv4_address: 192.17.0.99
+networks:
+  default:
+    ipam:
+      config:
+        - subnet: 192.17.0.0/24
