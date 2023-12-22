@@ -27,4 +27,23 @@ final class IPV4Test extends TestCase
         $this->expectExceptionMessage("CIDR < 0");
         cidr_to_ip(-1);
     }
+
+    public function testDecToBin32Bit(): void
+    {
+        $expectedBin1 = '00000000000000000000000000000000';
+        $expectedBin2 = '00000000000000000000000000001010';
+
+        $resultBin1 = dec_to_bin_32_bit(0);
+        $resultBin2 = dec_to_bin_32_bit(10);
+
+        $this->assertEquals($expectedBin1, $resultBin1);
+        $this->assertEquals($expectedBin2, $resultBin2);
+    }
+
+    public function testDecToBin32BitException(): void 
+    {
+        $this->expectException(Exception::class);
+        $this->expectExceptionMessage("$dec < 0");
+        dec_to_bin_32_bit(-1);
+    }
 }
