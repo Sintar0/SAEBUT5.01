@@ -2,7 +2,7 @@
 
 ## Information générale sur le document
 
-Ce document vise à présenter l’analyse des besoins du projet, celui-ci sera incrémenté au fur et à mesure des différents livrables, celui-ci sera divisé en plusieurs sections. “L'Énoncé” traduit notre compréhension technique du problème posé par le client. Les pré-requis font l’état des connaissances, compétences et ressources nécessaires pour la réalisation du projet. Les Priorités permettent de séquencer le travail et de focaliser sur les fonctionnalités importante
+Ce document vise à présenter l’analyse des besoins du projet, celui-ci sera incrémenté au fur et à mesure des différents livrables, celui-ci sera divisé en plusieurs sections. “L'Énoncé” traduit notre compréhension technique du problème posé par le client. Les pré-requis font l’état des connaissances, compétences et ressources nécessaires pour la réalisation du projet. Les Priorités permettent de séquencer le travail et de focaliser sur les fonctionnalités importantes
 
 ## Objectifs du document
 
@@ -10,19 +10,27 @@ Les objectifs de ce document sont d’identifier le problème, documenter les ex
 
 ## Structure et les documents référencés.
 
-Un document Annexe est rattaché à ce document. Il présente différents documents tel que des images ou des PDF pour illustrer notre projet.
+Ce document est le premier d’une série de 5 documents ; les suivants étant : 
+- Le recueil des besoins
+- La spécification qui liste les différents scénarii dans lesquels l’application sera utilisée
+- La conception qui détaille la manière dont a été réfléchi le site web
+- Le dossier de test qui détaille la procédure de test du site et ses différents modules
+
 
 # II./ Enoncé
 
 ## Contexte
 
 Ce projet s'inscrit dans le cadre de la SAE du semestre 5, le client nous a transmis son cahier des charges, la deadline pour ce projet est le vendredi 22 décembre à 18h. Nous disposons d’une période de 5 jours pour livrer le rendu final.
-Objectifs du projet
+
+## Objectifs du projet
 Développer un serveur web avec une interface permettant aux visiteurs d’y accéder sans authentification.
 
 De plus, le client souhaite qu’on développe un module permettant à un utilisateur de pouvoir exécuter des commandes PING sur une adresse IP ou une URL.
 
 Le client souhaite aussi un module permettant de simplifier une adresse IPv6 et de trouver sa classe. 
+
+Enfin, le client souhaite un module “IPv4”, celui-ci doit pour une adresse IPv4 donnée, un masque de sous-réseau et un nombre de sous-réseaux voulus, produire une division en sous-réseau avec un nombre de machines par sous-réseau déterminé par l’utilisateur
 
 ## Définition des objectifs que doit atteindre la solution.
 
@@ -32,6 +40,9 @@ L’interface essaiera d’intégrer le plus de fonctionnalités pour qu’elle 
 Le module PING consiste à proposer à un utilisateur de “ping” une adresse IP ou un URL avec des paramètres afin de tester par exemple l'accessibilité de différentes machines sur un réseau local.
 
 Le module adresse IPv6 consiste à proposer une simplification claire d’une adresse entrée par l’utilisateur. 
+
+Le module IPv4 permet une division d'une adresse IPv4 en sous-réseaux avec différents paramètres à ajouter permettant de lancer le module.
+
 
 # III./ Pré-requis
 
@@ -53,6 +64,7 @@ Le module adresse IPv6 consiste à proposer une simplification claire d’une ad
 - Pour réaliser la maquette de l’interface, nous utilisons le logiciel Microsoft WhiteBoard.
 - La machine sur lequel sera exécuté le module ping devra être doté du système Linux pour assurer le fonctionnement du ping.
 - Le module IPv6 se faisant exclusivement via PHP, celui-ci n’est pas dépendant d’un système d’exploitation défini.
+- Le module IPv4 se faisant exclusivement via PHP, celui-ci n’est pas dépendant d’un système d’exploitation défini
 
 ## Compétences nécessaires.
 
@@ -61,11 +73,11 @@ Le module adresse IPv6 consiste à proposer une simplification claire d’une ad
 - Communication afin de rendre un projet cohérent avec l'énoncé du projet.
 - Savoir coder une interface web avec PHP, HTML, CSS pour accueillir les différents modules présents sur le site.
 - Tests d’acceptations pour l’interface web
-- Test unitaire pour le module PING, le module IPv6 
+- Test unitaire pour le module PING, le module IPv6 et le module IPv4
 - Utilisation de PHP Unit
 
 
 # IV./ Priorités
 
 Il n’y a pas particulièrement de priorités convenues avec le client. 
-Cependant, la priorité pour ce “cycle” dans notre développement est d’implémenter le module ping.
+Cependant, la priorité pour ce “cycle” dans notre développement est d'implémenter le module IPv4

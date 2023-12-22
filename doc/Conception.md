@@ -79,9 +79,26 @@ Une fonction permettant de simplifier l’écriture est développée, de même p
 
 ![](https://media.discordapp.net/attachments/1186326822724571277/1187023107022671912/Untitled-2022-10-28-17431.png?ex=6595606a&is=6582eb6a&hm=f14baf203de8312ef0258c4957120eb30ee9990bf74a881007340bf8b2e897fc&=&format=webp&quality=lossless&width=1246&height=593)
 
+Nous avons utilisé le document ci-dessous pour implémenter les différents types d’adresses IPv6.
 
-## Conception architecturale
+![](https://technoskillscom.files.wordpress.com/2021/01/image-16.png?w=605)
+
+## Module IPv4 
+
+Le module IPv4 permet à un utilisateur de faire une division en sous-réseaux d’une adresse IPv4. 
+Pour cela, l’utilisateur devra remplir plusieurs champs : un champ texte avec l’adresse IPv4, un autre champ pour le masque ainsi qu’un champ pour le nombre de divisions (nombre de sous-réseaux). 
+Une fois le nombre de sous-réseaux choisi, un nombre de lignes correspondant au nombre de sous-réseaux apparaîtra en dessous des champs. Il y a 2 champs en plus à remplir par ligne (sous-réseau), l’un pour le nom du sous-réseau et l’autre pour le nombre de machines alloué au sous-réseau. 
+
+On peut ensuite lancer le programme via le bouton “calculer” qui renverra le résultat de la requête.
+
+![](https://cdn.discordapp.com/attachments/1165993401452331129/1187405404557291653/Untitled-2022-10-28-17432.png?ex=6596c475&is=65844f75&hm=2ee64407e5279f7005d64c7702b263292c9aad99a6eb45832edbc3de2f401925&)
+
+## Conception détaillée
 
 Nous utilisons un ensemble de fichiers HTML et CSS interagissant entre eux.
 
-![](https://media.discordapp.net/attachments/1186326822724571277/1187039155335737354/image.png?ex=65956f5c&is=6582fa5c&hm=28aec8b673c4d975686e66c854e95a7ef657de7d41445b448f73e1e5e3fadaf2&=&format=webp&quality=lossless&width=1178&height=593)
+![](https://media.discordapp.net/attachments/1186326822724571277/1187671675140055101/image.png?ex=6597bc71&is=65854771&hm=98c013c4920c2d8db10f6bf7d38e1248cbb4f4d06c0d5777ea7d0d84cd9306b5&=&format=webp&quality=lossless&width=1230&height=593)
+
+## Conception architecturale
+
+![](https://media.discordapp.net/attachments/1186326822724571277/1187663833687408640/image.png?ex=6597b523&is=65854023&hm=4fa6bef29eba2b9996a872dff927fb94f34bfa88d4259fbe9508c7adfb33f87e&=&format=webp&quality=lossless&width=1130&height=377)
