@@ -43,7 +43,7 @@ final class IPV4Test extends TestCase
     public function testDecToBin32BitException(): void 
     {
         $this->expectException(Exception::class);
-        $this->expectExceptionMessage("$dec < 0");
+        $this->expectExceptionMessage("\$dec < 0");
         dec_to_bin_32_bit(-1);
     }
 
@@ -76,5 +76,24 @@ final class IPV4Test extends TestCase
 
         $this->assertEquals($expectedBin1, $resultBin1);
         $this->assertEquals($expectedBin2, $resultBin2);
+    }
+
+    public function testIpNetworkFromIpMask(): void
+    {
+        $expectedMask1 = '1101';
+        $expectedMask2 = '0000';
+        
+        $resultMask1 = get_ip_network_from_ip_mask('1101','1111');
+        $resultMask2 = get_ip_network_from_ip_mask('1101', '0000');
+
+        $this->assertEquals($expectedMask1, $resultMask1);
+        $this->assertEquals($expectedMask2, $resultMask2);
+    }
+
+    public function testIpNetworkFromIpMaskException(): void 
+    {
+        $this->expectException(Exception::class);
+        $this->expectExceptionMessage("IP ou Mask invalid");
+        get_ip_network_from_ip_mask("0000000000","000");
     }
 }
