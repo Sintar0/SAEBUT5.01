@@ -245,22 +245,22 @@ Les tests pour IPv6 sont maintenant conformes au comportement attendu.
   <tr>
     <td class="tg-0pky">0</td>
     <td class="tg-0pky">00000000000000000000000000000000</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">OK</td>
   </tr>
   <tr>
     <td class="tg-0pky">24</td>
     <td class="tg-0pky">11111111111111111111111100000000</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">OK</td>
   </tr>
   <tr>
     <td class="tg-0pky">32</td>
     <td class="tg-0pky">11111111111111111111111111111111</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">OK</td>
   </tr>
   <tr>
     <td class="tg-0pky">-1<br></td>
     <td class="tg-0pky">"CIDR &lt; 0"<br></td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">OK</td>
   </tr>
 </tbody>
 </table>
@@ -281,17 +281,17 @@ Les tests pour IPv6 sont maintenant conformes au comportement attendu.
   <tr>
     <td class="tg-0pky">0</td>
     <td class="tg-0pky">00000000000000000000000000000000</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">OK</td>
   </tr>
   <tr>
     <td class="tg-0pky">10</td>
     <td class="tg-0pky">00000000000000000000000000001010</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">OK</td>
   </tr>
   <tr>
     <td class="tg-0pky">-1</td>
     <td class="tg-0pky">"Nombre &lt; 0"</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">OK</td>
   </tr>
 </tbody>
 </table>
@@ -313,17 +313,17 @@ Les tests pour IPv6 sont maintenant conformes au comportement attendu.
   <tr>
     <td class="tg-0pky">00000000000000000000000000000000</td>
     <td class="tg-0pky">0.0.0.0</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">OK</td>
   </tr>
   <tr>
     <td class="tg-0pky">11111111111111111111111111111111</td>
     <td class="tg-0pky">255.255.255.255</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">OK</td>
   </tr>
   <tr>
     <td class="tg-0pky">0000000000<br></td>
     <td class="tg-0pky">"Ip invalide"</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">OK</td>
   </tr>
 </tbody>
 </table>
@@ -347,13 +347,13 @@ Les tests pour IPv6 sont maintenant conformes au comportement attendu.
     <td class="tg-0pky">1101</td>
     <td class="tg-0pky">1111</td>
     <td class="tg-0pky">1101</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">OK</td>
   </tr>
   <tr>
     <td class="tg-0pky">1101</td>
     <td class="tg-0pky">0000</td>
     <td class="tg-0pky">0000</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">OK</td>
   </tr>
 </tbody>
 </table>
@@ -374,19 +374,19 @@ Les tests pour IPv6 sont maintenant conformes au comportement attendu.
     <td class="tg-0pky">01<br></td>
     <td class="tg-0pky">01<br></td>
     <td class="tg-0pky">10</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">OK</td>
   </tr>
   <tr>
     <td class="tg-0pky">00</td>
     <td class="tg-0pky">11</td>
     <td class="tg-0pky">11</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">OK</td>
   </tr>
   <tr>
     <td class="tg-0pky">1000000000</td>
     <td class="tg-0pky">1000</td>
     <td class="tg-0pky">"Longueur non valide"</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">OK</td>
   </tr>
 </tbody>
 </table>
@@ -410,13 +410,13 @@ Les tests pour IPv6 sont maintenant conformes au comportement attendu.
     <td class="tg-0pky">24<br></td>
     <td class="tg-0pky">10<br></td>
     <td class="tg-0pky">true<br></td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">OK</td>
   </tr>
   <tr>
     <td class="tg-0pky">31<br></td>
     <td class="tg-0pky">10</td>
     <td class="tg-0pky">false<br></td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">OK</td>
   </tr>
 </tbody>
 </table>
