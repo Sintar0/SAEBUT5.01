@@ -23,7 +23,7 @@ RUN wget https://phar.phpunit.de/phpunit-9.phar \
     && mv phpunit-9.phar /usr/local/bin/phpunit
 
 # Mise à jour des droits sur le dossier
-CMD ["chmod +x /var/www/html/tests/vendor/bin/phpunit tests"]
+CMD ["chmod +x ./tests/vendor/bin/phpunit tests"]
 
 # Démarrage du serveur Apache
 CMD ["apache2-foreground"]
