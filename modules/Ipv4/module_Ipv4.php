@@ -14,7 +14,7 @@ $footer = Include "../../component/footer.php";
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"> 
-    <title>Hoguins Memory | Ipv4</title>
+    <title>Réseau en modules | Ipv4</title>
 </head>
 <body>
     <?php

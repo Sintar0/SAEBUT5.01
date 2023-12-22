@@ -12,7 +12,7 @@ $footer = require 'component/footer.php';
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"> 
-    <title>Hoguins Memory | Home</title>
+    <title>Réseau en modules | Home</title>
 </head>
 <body>
 <?php
