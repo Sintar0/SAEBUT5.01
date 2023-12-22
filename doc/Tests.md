@@ -138,7 +138,7 @@ Définition des résultats de chaque test selon le tableau suivant :
 | Résultat du test : (OK, KO, non fait, dérogé)        | OK           |
 | Occurrences des résultats : (éventuel, systématique) | Systematique |
 
-#### 3.3.3  Résultat du test du module ping 
+#### 3.3.3  Résultat du test du module IPv6 
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -147,7 +147,7 @@ Définition des résultats de chaque test selon le tableau suivant :
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-0pky{text-align:left;vertical-align:top}
 </style>
 <table class="tg">
 <thead>
@@ -182,50 +182,243 @@ Définition des résultats de chaque test selon le tableau suivant :
     <td class="tg-0pky">Link-Local</td>
   </tr>
   <tr>
-    <td class="tg-0lax">0000:0000:0000:0000:0000:0000:0000:0000</td>
-    <td class="tg-0lax">::</td>
-    <td class="tg-0lax">::</td>
-    <td class="tg-0lax">Unspecified</td>
-    <td class="tg-0lax">Unspecified</td>
+    <td class="tg-0pky">0000:0000:0000:0000:0000:0000:0000:0000</td>
+    <td class="tg-0pky">::</td>
+    <td class="tg-0pky">::</td>
+    <td class="tg-0pky">Unspecified</td>
+    <td class="tg-0pky">Unspecified</td>
   </tr>
   <tr>
-    <td class="tg-0lax">ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff</td>
-    <td class="tg-0lax">ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff</td>
-    <td class="tg-0lax">ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff</td>
-    <td class="tg-0lax">Anycast</td>
-    <td class="tg-0lax">Anycast</td>
+    <td class="tg-0pky">ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff</td>
+    <td class="tg-0pky">ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff</td>
+    <td class="tg-0pky">ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff</td>
+    <td class="tg-0pky">Anycast</td>
+    <td class="tg-0pky">Anycast</td>
   </tr>
   <tr>
-    <td class="tg-0lax">1111:1111:1111:1111:1111:1111:1111:1111</td>
-    <td class="tg-0lax">1111:1111:1111:1111:1111:1111:1111:1111</td>
-    <td class="tg-0lax">1111:1111:1111:1111:1111:1111:1111:1111</td>
-    <td class="tg-0lax">Anycast</td>
-    <td class="tg-0lax">Anycast</td>
+    <td class="tg-0pky">1111:1111:1111:1111:1111:1111:1111:1111</td>
+    <td class="tg-0pky">1111:1111:1111:1111:1111:1111:1111:1111</td>
+    <td class="tg-0pky">1111:1111:1111:1111:1111:1111:1111:1111</td>
+    <td class="tg-0pky">Anycast</td>
+    <td class="tg-0pky">Anycast</td>
   </tr>
   <tr>
-    <td class="tg-0lax">0000:0000:0000:0000:0000:0000:0000:0001</td>
-    <td class="tg-0lax">::1</td>
-    <td class="tg-0lax">::1</td>
-    <td class="tg-0lax">Loopback</td>
-    <td class="tg-0lax">Loopback</td>
+    <td class="tg-0pky">0000:0000:0000:0000:0000:0000:0000:0001</td>
+    <td class="tg-0pky">::1</td>
+    <td class="tg-0pky">::1</td>
+    <td class="tg-0pky">Loopback</td>
+    <td class="tg-0pky">Loopback</td>
   </tr>
   <tr>
-    <td class="tg-0lax">FC00:0000:0000:0000:0000:0000:0000:0000</td>
-    <td class="tg-0lax">fc00::</td>
-    <td class="tg-0lax">fc00::</td>
-    <td class="tg-0lax">Unique Local</td>
-    <td class="tg-0lax">Unspecified</td>
+    <td class="tg-0pky">FC00:0000:0000:0000:0000:0000:0000:0000</td>
+    <td class="tg-0pky">fc00::</td>
+    <td class="tg-0pky">fc00::</td>
+    <td class="tg-0pky">Unique Local</td>
+    <td class="tg-0pky">Unspecified</td>
   </tr>
   <tr>
-    <td class="tg-0lax">FD00:0000:0000:0000:0000:0000:0000:0000</td>
-    <td class="tg-0lax">fd00::</td>
-    <td class="tg-0lax">fd00::</td>
-    <td class="tg-0lax">Unique Local</td>
-    <td class="tg-0lax">Unspecified</td>
+    <td class="tg-0pky">FD00:0000:0000:0000:0000:0000:0000:0000</td>
+    <td class="tg-0pky">fd00::</td>
+    <td class="tg-0pky">fd00::</td>
+    <td class="tg-0pky">Unique Local</td>
+    <td class="tg-0pky">Unspecified</td>
   </tr>
 </tbody>
 </table>
 
-### Observation 
+##### Observation 
 
-Les tests sont maintenant conforme au comportement attendus.
+Les tests pour IPv6 sont maintenant conformes au comportement attendu.
+
+#### 3.3.4 Résultat du test du module IPv4
+
+#### 3.3.4.1 Fonction de conversion CIDR en binaire
+<table class=tg>
+<thead>
+  <tr>
+    <th class="tg-0pky">CIDR</th>
+    <th class="tg-0pky">Résultat attendu</th>
+    <th class="tg-0pky">Résultat observé</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">00000000000000000000000000000000</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">24</td>
+    <td class="tg-0pky">11111111111111111111111100000000</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">32</td>
+    <td class="tg-0pky">11111111111111111111111111111111</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">-1<br></td>
+    <td class="tg-0pky">"CIDR &lt; 0"<br></td>
+    <td class="tg-0pky"></td>
+  </tr>
+</tbody>
+</table>
+
+##### Observations
+
+#### 3.3.4.2 Fonction de conversion d'entiers en binaire 
+
+<table class=tg> 
+<thead>
+  <tr>
+    <th class="tg-0pky">Nombre entier</th>
+    <th class="tg-0pky">Résultat attendu</th>
+    <th class="tg-0pky">Résultat observé</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">0</td>
+    <td class="tg-0pky">00000000000000000000000000000000</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">10</td>
+    <td class="tg-0pky">00000000000000000000000000001010</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">-1</td>
+    <td class="tg-0pky">"Nombre &lt; 0"</td>
+    <td class="tg-0pky"></td>
+  </tr>
+</tbody>
+</table>
+
+##### Observations
+
+
+#### 3.3.4.3 Fonction de conversion d'un binaire en adresse IPv4
+
+<table class=tg>
+<thead>
+  <tr>
+    <th class="tg-0pky">Nombre binaire</th>
+    <th class="tg-0pky">Résultat attendu</th>
+    <th class="tg-0pky">Résultat observé</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">00000000000000000000000000000000</td>
+    <td class="tg-0pky">0.0.0.0</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">11111111111111111111111111111111</td>
+    <td class="tg-0pky">255.255.255.255</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">0000000000<br></td>
+    <td class="tg-0pky">"Ip invalide"</td>
+    <td class="tg-0pky"></td>
+  </tr>
+</tbody>
+</table>
+
+##### Observations
+
+
+#### 3.3.4.4 Fonction de calcul de l'adresse réseau
+
+<table class=tg>
+<thead>
+  <tr>
+    <th class="tg-0pky">Adresse IP</th>
+    <th class="tg-0pky">Masque</th>
+    <th class="tg-0pky">Résultat attendu</th>
+    <th class="tg-0pky">Résultat observé</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">1101</td>
+    <td class="tg-0pky">1111</td>
+    <td class="tg-0pky">1101</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">1101</td>
+    <td class="tg-0pky">0000</td>
+    <td class="tg-0pky">0000</td>
+    <td class="tg-0pky"></td>
+  </tr>
+</tbody>
+</table>
+
+#### 3.3.4.5 Fonction d'addition de deux binaires
+
+<table class=tg>
+<thead>
+  <tr>
+    <th class="tg-0pky">Binaire 1</th>
+    <th class="tg-0pky">Binaire 2</th>
+    <th class="tg-0pky">Résultat attendu</th>
+    <th class="tg-0pky">Résultat observé</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">01<br></td>
+    <td class="tg-0pky">01<br></td>
+    <td class="tg-0pky">10</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">00</td>
+    <td class="tg-0pky">11</td>
+    <td class="tg-0pky">11</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">1000000000</td>
+    <td class="tg-0pky">1000</td>
+    <td class="tg-0pky">"Longueur non valide"</td>
+    <td class="tg-0pky"></td>
+  </tr>
+</tbody>
+</table>
+
+##### Observations
+
+
+#### 3.3.4.6 Fonction de vérification du nombre de machines par rapport au masque
+
+<table class=tg>
+<thead>
+  <tr>
+    <th class="tg-0pky">Masque</th>
+    <th class="tg-0pky">Nombre de machines</th>
+    <th class="tg-0pky">Résultat attendu</th>
+    <th class="tg-0pky">Résultat observé</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">24<br></td>
+    <td class="tg-0pky">10<br></td>
+    <td class="tg-0pky">true<br></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">31<br></td>
+    <td class="tg-0pky">10</td>
+    <td class="tg-0pky">false<br></td>
+    <td class="tg-0pky"></td>
+  </tr>
+</tbody>
+</table>
+
+##### Observations
