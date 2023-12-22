@@ -399,8 +399,8 @@ Les tests pour IPv6 sont maintenant conformes au comportement attendu.
 <table class=tg>
 <thead>
   <tr>
-    <th class="tg-0pky">Paramètre 1</th>
-    <th class="tg-0pky">Paramètre 2</th>
+    <th class="tg-0pky">Masque</th>
+    <th class="tg-0pky">Nombre de machines</th>
     <th class="tg-0pky">Résultat attendu</th>
     <th class="tg-0pky">Résultat observé</th>
   </tr>
