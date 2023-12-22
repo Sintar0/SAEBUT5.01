@@ -96,4 +96,23 @@ final class IPV4Test extends TestCase
         $this->expectExceptionMessage("IP ou Mask invalid");
         get_ip_network_from_ip_mask("0000000000","000");
     }
+
+    public function testAdditionBin(): void
+    {
+        $expectedBin1 = '10';
+        $expectedBin2 = '11';
+        
+        $resultBin1 = addition_bin('01','01');
+        $resultBin2 = addition_bin('00', '11');
+
+        $this->assertEquals($expectedBin1, $resultBin1);
+        $this->assertEquals($expectedBin2, $resultBin2);
+    }
+
+    public function testAdditionBinException(): void 
+    {
+        $this->expectException(Exception::class);
+        $this->expectExceptionMessage("Longueur non valide");
+        addition_bin("1000000000","1000");
+    }
 }
