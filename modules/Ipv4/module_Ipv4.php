@@ -34,7 +34,7 @@ $footer = Include "../../component/footer.php";
                             <span>/</span>
                             <div class="label_i mask">
                                 <label for="inputMask">Masque</label>
-                                <input id="inputMask" name="inputMask" type="number" value="24" min="0" required>
+                                <input id="inputMask" name="inputMask" type="number" value="24" min="0" max="32" required>
                             </div>
                             <div class="label_i nbSubnet">
                                 <label for="inputNbSubnet">Nb. sous-réseaux</label>
