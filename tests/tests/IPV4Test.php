@@ -46,4 +46,23 @@ final class IPV4Test extends TestCase
         $this->expectExceptionMessage("$dec < 0");
         dec_to_bin_32_bit(-1);
     }
+
+    public function testIpAdressBinToDec(): void
+    {
+        $expectedDec1 = '0.0.0.0';
+        $expectedDec2 = '255.255.255.255';
+
+        $resultDec1 = ip_adress_bin_to_dec('00000000000000000000000000000000');
+        $resultDec2 = ip_adress_bin_to_dec('11111111111111111111111111111111');
+
+        $this->assertEquals($expectedDec1, $resultDec1);
+        $this->assertEquals($expectedDec2, $resultDec2);
+    }
+    
+    public function testIpAdressBinToDecException(): void 
+    {
+        $this->expectException(Exception::class);
+        $this->expectExceptionMessage("Ip invalide");
+        ip_adress_bin_to_dec("0000000000");
+    }
 }
