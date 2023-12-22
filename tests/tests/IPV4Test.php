@@ -115,4 +115,16 @@ final class IPV4Test extends TestCase
         $this->expectExceptionMessage("Longueur non valide");
         addition_bin("1000000000","1000");
     }
+
+    public function testVerifAvailable(): void
+    {
+        $expectedVerif1 = true;
+        $expectedVerif2 = false;
+        
+        $resultVerif1 = verif_available(24,10);
+        $resultVerif2 = verif_available(31, 10);
+
+        $this->assertEquals($expectedVerif1, $resultVerif1);
+        $this->assertEquals($expectedVerif2, $resultVerif2);
+    }
 }
