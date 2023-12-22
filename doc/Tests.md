@@ -265,8 +265,6 @@ Les tests pour IPv6 sont maintenant conformes au comportement attendu.
 </tbody>
 </table>
 
-##### Observations
-
 #### 3.3.4.2 Fonction de conversion d'entiers en binaire 
 
 <table class=tg> 
@@ -295,8 +293,6 @@ Les tests pour IPv6 sont maintenant conformes au comportement attendu.
   </tr>
 </tbody>
 </table>
-
-##### Observations
 
 
 #### 3.3.4.3 Fonction de conversion d'un binaire en adresse IPv4
@@ -327,8 +323,6 @@ Les tests pour IPv6 sont maintenant conformes au comportement attendu.
   </tr>
 </tbody>
 </table>
-
-##### Observations
 
 
 #### 3.3.4.4 Fonction de calcul de l'adresse réseau
@@ -391,8 +385,6 @@ Les tests pour IPv6 sont maintenant conformes au comportement attendu.
 </tbody>
 </table>
 
-##### Observations
-
 
 #### 3.3.4.6 Fonction de vérification du nombre de machines par rapport au masque
 
@@ -422,3 +414,6 @@ Les tests pour IPv6 sont maintenant conformes au comportement attendu.
 </table>
 
 ##### Observations
+
+Les tests pour IPv4 sont maintenant conformes au comportement attendu.
+
