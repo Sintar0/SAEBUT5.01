@@ -93,8 +93,12 @@ On peut ensuite lancer le programme via le bouton “calculer” qui renverra le
 
 ![](https://cdn.discordapp.com/attachments/1165993401452331129/1187405404557291653/Untitled-2022-10-28-17432.png?ex=6596c475&is=65844f75&hm=2ee64407e5279f7005d64c7702b263292c9aad99a6eb45832edbc3de2f401925&)
 
-## Conception architecturale
+## Conception détaillée
 
 Nous utilisons un ensemble de fichiers HTML et CSS interagissant entre eux.
 
-![](https://media.discordapp.net/attachments/1186326822724571277/1187039155335737354/image.png?ex=65956f5c&is=6582fa5c&hm=28aec8b673c4d975686e66c854e95a7ef657de7d41445b448f73e1e5e3fadaf2&=&format=webp&quality=lossless&width=1178&height=593)
+![](https://media.discordapp.net/attachments/1186326822724571277/1187664669519908935/image.png?ex=6597b5ea&is=658540ea&hm=de4038d6297ce0345532a5abcf6e00c85d51ec4d33b916553fd34d39921d5ec7&=&format=webp&quality=lossless&width=1223&height=593)
+
+## Conception architecturale
+
+![](https://media.discordapp.net/attachments/1186326822724571277/1187663833687408640/image.png?ex=6597b523&is=65854023&hm=4fa6bef29eba2b9996a872dff927fb94f34bfa88d4259fbe9508c7adfb33f87e&=&format=webp&quality=lossless&width=1130&height=377)
